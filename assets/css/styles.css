@@ -241,7 +241,31 @@ img {
   height: 500px;
   
 }
+/*===== PPP =====*/
+.ppp__container {
+    text-align: center;
+    margin-top: var(--mb-4);
+    padding: 0 var(--mb-2); /* Ajouter un peu de padding sur les côtés */
+}
 
+.ppp__content {
+    max-width: 1000px; /* Augmenter la largeur maximale */
+    margin: 0 auto;
+}
+
+.ppp__content iframe {
+    border: 1px solid var(--second-color);
+    border-radius: 0.5rem;
+    margin-bottom: var(--mb-4);
+    width: 100%; /* Prendre toute la largeur disponible */
+    height: 600px; /* Augmenter la hauteur de l'iframe */
+}
+
+.ppp__content p {
+    margin-bottom: var(--mb-2);
+    font-size: var(--normal-font-size);
+    color: var(--second-color);
+}
 /*BUTTONS*/
 .button {
   display: inline-block;
